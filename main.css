@@ -16,6 +16,7 @@ body{
     align-items: center;
     width: 100vw;
     height: 100vh;
+    background-color: black;
 }
 .big-text{
     font-size: 15rem;
@@ -27,4 +28,5 @@ body{
 
 .digital-text{
     font-family: "Digi" , serif;
+    color: blue;
 }
