@@ -7,7 +7,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-size: 16px;
+    font-size: 20px;
 }
 
 body{
@@ -16,7 +16,7 @@ body{
     align-items: center;
     width: 100vw;
     height: 100vh;
-    background-color: black;
+    background-image: url("colors-1.jpg");
 }
 .big-text{
     font-size: 15rem;
@@ -28,5 +28,5 @@ body{
 
 .digital-text{
     font-family: "Digi" , serif;
-    color: blue;
+    color: black;
 }
