@@ -16,7 +16,7 @@ body{
     align-items: center;
     width: 100vw;
     height: 100vh;
-    background-image: url("colors-1.jpg");
+    background-color:black;
 }
 .big-text{
     font-size: 15rem;
@@ -28,5 +28,12 @@ body{
 
 .digital-text{
     font-family: "Digi" , serif;
-    color: black;
+    color: blue;
+}
+
+#date {
+    color: blue;
+    font-size: 3.5rem;
+    text-align: center;
+    font-family: "Digi";
 }
