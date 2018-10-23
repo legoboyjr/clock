@@ -38,15 +38,22 @@ body{
 }
 
 .circle{
-    display: inline-block;
     height: .7rem;
     width: .7rem;
     border-radius: 1rem;
+}
+.d-inline-block{
+    display: inline-block;
+}
+.border-solid-grey{
     border: 1px solid rgba(125, 125, 125, 0.6);
+}
+.ml-half{
     margin-left: 0.5rem;
+}
+.mr-half{
     margin-right: 0.5rem;
 }
-
 .am {
     background-color: rgba(125, 125, 125, 0.6);
 }
