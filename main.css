@@ -1,16 +1,16 @@
-
+/* fonts */
+@font-face{
+    font-family: "Digi";
+    src: url("./fonts/DS-DIGI.TTF");
+}
+/* normalize */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-size: 20px;
 }
-.digital-text{
-    font-family: "Digi" , serif;
-}
-.text-blue{
-    color: blue;
-}
+/* display */
 .d-flex{
     display: flex;
 }
@@ -20,28 +20,43 @@
 .align-items-center{
     align-items: center;
 }
+/* sizing */
 .vw100{
     width: 100vw;
 }
 .vh100{
     height: 100vh;
 }
-.bg-black{
-    background-color: black;
+/* spaceing */
+.ml-half{
+    margin-left: 0.5rem;
 }
-.big-text{
-    font-size: 15rem;
+.mr-half{
+    margin-right: 0.5rem;
 }
-
-@font-face{
-    font-family: "Digi";
-    src: url("./fonts/DS-DIGI.TTF");
+/* text */
+.digital-text{
+    font-family: "Digi" , serif;
+}
+.text-blue{
+    color: blue;
 }
 .font-35{
     font-size: 3.5rem;
     text-align: center;
 }
-
+.big-text{
+    font-size: 15rem;
+}
+/* background */
+.bg-black{
+    background-color: black;
+}
+/* border */
+.border-solid-grey{
+    border: 1px solid rgba(125, 125, 125, 0.6);
+}
+/* utilities */
 .circle{
     height: .7rem;
     width: .7rem;
@@ -50,19 +65,9 @@
 .d-inline-block{
     display: inline-block;
 }
-.border-solid-grey{
-    border: 1px solid rgba(125, 125, 125, 0.6);
-}
-.ml-half{
-    margin-left: 0.5rem;
-}
-.mr-half{
-    margin-right: 0.5rem;
-}
 .am {
     background-color: rgba(125, 125, 125, 0.6);
 }
-
 .pm {
     background-color: blue;
 }
