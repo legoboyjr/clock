@@ -1,5 +1,4 @@
 
-
 *{
     margin: 0;
     padding: 0;
@@ -12,20 +11,26 @@
 .text-blue{
     color: blue;
 }
-body{
+.d-flex{
     display: flex;
+}
+.justify-content-center{
     justify-content: center;
+}
+.align-items-center{
     align-items: center;
+}
+.vw100{
     width: 100vw;
+}
+.vh100{
     height: 100vh;
-    background-color:black;
+}
+.bg-black{
+    background-color: black;
 }
 .big-text{
     font-size: 15rem;
-}
-
-.big-text *{
-    font-size: inherit;
 }
 
 @font-face{
