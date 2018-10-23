@@ -1,7 +1,4 @@
-@font-face{
-    font-family: "Digi";
-    src: url("./fonts/DS-DIGI.TTF");
-}
+
 
 *{
     margin: 0;
@@ -9,7 +6,12 @@
     box-sizing: border-box;
     font-size: 20px;
 }
-
+.digital-text{
+    font-family: "Digi" , serif;
+}
+.text-blue{
+    color: blue;
+}
 body{
     display: flex;
     justify-content: center;
@@ -26,16 +28,14 @@ body{
     font-size: inherit;
 }
 
-.digital-text{
-    font-family: "Digi" , serif;
-    color: blue;
+@font-face{
+    font-family: "Digi";
+    src: url("./fonts/DS-DIGI.TTF");
 }
 
 #date {
-    color: blue;
     font-size: 3.5rem;
     text-align: center;
-    font-family: "Digi";
 }
 
 .circle{
