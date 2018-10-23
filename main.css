@@ -1,73 +1,100 @@
 /* fonts */
-@font-face{
+
+@font-face {
     font-family: "Digi";
     src: url("./fonts/DS-DIGI.TTF");
 }
+
 /* normalize */
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-size: 20px;
 }
+
 /* display */
-.d-flex{
+
+.d-flex {
     display: flex;
 }
-.justify-content-center{
+
+.justify-content-center {
     justify-content: center;
 }
-.align-items-center{
+
+.align-items-center {
     align-items: center;
 }
+
 /* sizing */
-.vw100{
+
+.vw100 {
     width: 100vw;
 }
-.vh100{
+
+.vh100 {
     height: 100vh;
 }
+
 /* spaceing */
-.ml-half{
+
+.ml-half {
     margin-left: 0.5rem;
 }
-.mr-half{
+
+.mr-half {
     margin-right: 0.5rem;
 }
+
 /* text */
-.digital-text{
-    font-family: "Digi" , serif;
+
+.digital-text {
+    font-family: "Digi", serif;
 }
-.text-blue{
+
+.text-blue {
     color: blue;
 }
-.font-35{
+
+.font-35 {
     font-size: 3.5rem;
     text-align: center;
 }
-.big-text{
+
+.big-text {
     font-size: 15rem;
 }
+
 /* background */
-.bg-black{
+
+.bg-black {
     background-color: black;
 }
+
 /* border */
-.border-solid-grey{
+
+.border-solid-grey {
     border: 1px solid rgba(125, 125, 125, 0.6);
 }
+
 /* utilities */
-.circle{
+
+.circle {
     height: .7rem;
     width: .7rem;
     border-radius: 1rem;
 }
-.d-inline-block{
+
+.d-inline-block {
     display: inline-block;
 }
+
 .am {
     background-color: rgba(125, 125, 125, 0.6);
 }
+
 .pm {
     background-color: blue;
 }
