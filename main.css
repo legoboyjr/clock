@@ -32,8 +32,7 @@ body{
     font-family: "Digi";
     src: url("./fonts/DS-DIGI.TTF");
 }
-
-#date {
+.font-35{
     font-size: 3.5rem;
     text-align: center;
 }
